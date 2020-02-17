@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="processa.php" method="post">
+
+        <label>Text</label>
+
+        <input type="text" name="texto1" placeholder="text">
+        <br>
+        <label>Password</label>
+        <input type="password" name="senha">
+        <br>
+        <label>Oculto</label>
+        <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+        <br>
+        <label>Select</label>
+        <select name="selecao">
+            <option value="1">opcao 1</option>
+            <option value="2">opcao 2</option>
+        </select>
+        <br>
+        <label>Radio</label>
+        <input type="radio" name="radio1" value="1" checked>Valor 1
+        <input type="radio" name="radio1" value="2">valor 2
+        <br>
+        <input type="checkbox" name="ck1" value="1">valor 1
+        <br>
+        <input type="checkbox" name="ck1" value="2">valor 2
+        <br>
+        <input type="checkbox" name="ck1" value="3">valor 3
+        <br>
+        <input type="submit" value="Enviar" name="submit">
+
+    </form>
+
+</body>
+</html>
